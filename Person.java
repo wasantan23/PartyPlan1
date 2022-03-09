@@ -13,15 +13,20 @@ Public class Main {
   }
 }
 */
-public class Person { //person class
+public class Main { //person class
+
+  public static void main(String[] args) {
   int personID; //instances of varaibles that are being used in the constructor
   String name;
   int tableID;
-  int companyID
+  int companyID;
   
-public Person (int id, String name , int coID) { //overloaded constrcutor that takes in the id, name and coID
+public Main (int id, String pname, int coID) { //overloaded constrcutor that takes in the id, name and coID
   this.personID = id; //we use .this to make sure we are not getting confused w/ the variable names
   this.name = pname;
   this.companyID = coID;
-  } //closes the constructor
+    } //closes the constructor
+  }
+
+  
 } //closes the main
